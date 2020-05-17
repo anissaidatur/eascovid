@@ -1,0 +1,27 @@
+{% extends "layout.html" %} {% block title %}Menu Rekap{% endblock %} {% block body %}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-12">
+            <h2>Rekap Donasi</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-8 mt-4">
+            <!-- Button trigger modal -->
+
+            <h3>Daftar Rekap</h3>
+
+            <ul class="list-group">
+                {% for rekap in rekaps %}
+                <li class="list-group-item">
+                    {{ rekap['jenis_donasi'] }} {{ rekap['SUM(jumlah_donasi)']}}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

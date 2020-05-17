@@ -1,0 +1,15 @@
+{% extends "layout.html" %} {% block title %}Show Donasi{% endblock %} {% block body %}
+
+<div class="container mt-4">
+    <h1>Show Donasi</h1>
+    <div class="card" style="width: 25rem;">
+        <div class="card-body">
+            <h5 class="card-title">Nama Donatur : {{ donasi['nama'] }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted"> Telah mendonasikan : {{ donasi['nama_donasi'] }}</h6>
+            <p class="text">Dengan jumlah : {{ donasi['jumlah_donasi'] }}</p>
+            <a href="{{ BASE_URL }}/donasi">Kembali</a>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
