@@ -29,4 +29,5 @@ terdapat detail nama donatur,barang dan total donasi yang disumbangkan
 
 # Kelemahan
 - pada sistem ini, apabila user ingin berdonasi dengan lebih dari 1 barang maka harus memasukkan ulang pada form donasi.
-- menu rekap yang belum terfilter sesuai dengan jenis donasi, karena 
+- Menu rekap yang belum terfilter sesuai dengan jenis donasi, maka dari itu yang ditampilkan adalah keseluruhan hasil dari form yang telah diisi. Misal A telah menyumbang Mie 30 pcs. B menyumbang Mie 5 pcs, maka pada menu rekap dihitung secara keseluruhan dari user A dan B , maka akan ditampilkan Jenis Donasi berupa Bahan Makanan sebanyak 35 . 
+- 
