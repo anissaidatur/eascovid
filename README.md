@@ -1,7 +1,12 @@
 ### Anis Saidatur Rochma
 ### 05311840000002
 
-#### Dokumentasi Final Project Pemrograman Integratif - MVC 
+### Dokumentasi Final Project Pemrograman Integratif - MVC 
+
+### Langkah-Langkah Menggunakan Website ini : 
+1. Membuat DB baru ( bisa disesuaikan pada file Constant.php)
+2. Import file sql 
+3. Siap digunakan
 
 ### Home
 Berikut adalah Tampilan Home 
